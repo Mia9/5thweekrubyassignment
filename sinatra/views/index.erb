@@ -2,13 +2,232 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Youtube</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" href="youtube-logo2.png">
+	<title>Youtube Clone</title>
 </head>
 <body>
-	<h2>Youtube Videos</h2>
+	<header>
+	<div class="logo left">
+	   <i id="menu" class="material-icons">menu</i>
+	   <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+	</div>
+	 
+	<div class="search center">
+	   <form action="">
+	    <input type="text" placeholder="Search" />
+	    <button><i class="material-icons">search</i></button>
+	   </form>
+	   <i class="material-icons mic">mic</i>
+	</div>
+	 
+	<div class="icons right">
+	   <i class="material-icons">videocam</i>
+	   <i class="material-icons">apps</i>
+	   <i class="material-icons">notifications</i>
+	   <i class="material-icons display-this">account_circle</i>
+	</div>
+	</header>
+
+	<main>
+		<div class="side-bar">
+			<div class="nav">
+			<a class="nav-link active">
+				<i class="material-icons">home</i>
+				<span>Home</span>
+			<a/>
+			<a class="nav-link">
+			    <i class="material-icons">local_fire_department</i>
+			    <span>Trending</span>
+			</a>
+			<a class="nav-link">
+			    <i class="material-icons">subscriptions</i>
+			    <span>Subscriptions</span>
+			</a>
+			</div>
+		<hr>
+		<a class="nav-link">
+	       <i class="material-icons">library_add_check</i>
+	       <span>Library</span>
+	    </a>
+	    <a class="nav-link">
+	       <i class="material-icons">history</i>
+	       <span>History</span>
+	    </a>
+	    <a class="nav-link">
+	       <i class="material-icons">play_arrow</i>
+	       <span>Your Videos</span>
+	    </a>
+	    <a class="nav-link">
+	       <i class="material-icons">watch_later</i>
+	       <span>Watch Later</span>
+	    </a>
+	    <a class="nav-link">
+	       <i class="material-icons">thumb_up</i>
+	       <span>Liked Videos</span>
+	    </a>
+		</div>
+		<div class="content">
+			<div class="videos">
+			<!-- a video starts -->
+			    <div class="video">
+			       <div class="thumbnail">
+			          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/e4bptIoZFDE" title="Realm of Tranquil Eternity：Inazuma Live Symphony Performance | Genshin Impact" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			        </div>
+			            <div class="details">
+			            <div class="title">
+			                <h3>
+			                    Realm of Tranquil Eternity：Inazuma Live Symphony Performance
+			                </h3>			                
+			                <span> 1.2M Views • 2 Days Ago </span>
+			            </div>
+			           </div>
+			        </div>
+			<!-- a video Ends -->
+			<!-- a video starts -->
+			    <div class="video">
+			       <div class="thumbnail">
+			          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/O8bzUg0yLps" title="The Divine Damsel of Devastation Opera Performance but it&#39;s IRL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			        </div>
+			            <div class="details">
+			            <div class="title">
+			                <h3>
+			                    The Divine Damsel of Devastation Opera Performance
+			                </h3>
+			                <span> 1.2M Views • 2 Days Ago </span>
+			            </div>
+			           </div>
+			        </div>
+			<!-- a video Ends -->
+			<!-- a video starts -->
+			    <div class="video">
+			       <div class="thumbnail">
+			          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mAHW2ioE1g4" title="&quot;Tales From the Snow Mountain&quot; - Genshin Impact Dragonspine OST Feature Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			        </div>
+			            <div class="details">
+		            <div class="title">
+			                <h3>
+			                    Tales From the Snow Mountain
+			                </h3>
+		                <span> 1.2M Views • 2 Days Ago </span>
+			            </div>
+			           </div>
+			        </div>
+			<!-- a video Ends -->
+			<!-- a video starts -->
+			    <div class="video">
+			       <div class="thumbnail">
+			          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/O_Udh58C2dM" title="&quot;Song of Innocence&quot;: Inazuma Chapter OST Album 2 - Through the Mists Theme MV | Genshin Impact" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			        </div>
+			            <div class="details">
+			            <div class="title">
+			                <h3>
+			                    Song of Innocence
+			                </h3>		               
+			                <span> 1.2M Views • 2 Days Ago </span>
+			            </div>
+			           </div>
+			        </div>
+			<!-- a video Ends -->
+			<!-- a video starts -->
+			    <div class="video">
+			       <div class="thumbnail">
+			          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/e4bptIoZFDE" title="Realm of Tranquil Eternity：Inazuma Live Symphony Performance | Genshin Impact" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			        </div>
+			            <div class="details">			            
+			            <div class="title">
+			                <h3>
+			                    Realm of Tranquil Eternity：Inazuma Live Symphony Performance
+			                </h3>
+			                <span> 1.2M Views • 2 Days Ago </span>
+			            </div>
+			           </div>
+			        </div>
+			<!-- a video Ends -->
+			<!-- a video starts -->
+			    <div class="video">
+			       <div class="thumbnail">
+			          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/O8bzUg0yLps" title="The Divine Damsel of Devastation Opera Performance but it&#39;s IRL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			        </div>
+			            <div class="details">
+			            <div class="title">
+			                <h3>
+			                    The Divine Damsel of Devastation Opera Performance
+			                </h3>			           
+			                <span> 1.2M Views • 2 Days Ago </span>
+			            </div>
+			           </div>
+			        </div>
+			<!-- a video Ends -->
+			<!-- a video starts -->
+			    <div class="video">
+			       <div class="thumbnail">
+			          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mAHW2ioE1g4" title="&quot;Tales From the Snow Mountain&quot; - Genshin Impact Dragonspine OST Feature Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			        </div>
+			            <div class="details">			            
+			            <div class="title">
+			                <h3>
+			                    Tales From the Snow Mountain
+			                </h3>			                
+			                <span> 1.2M Views • 2 Days Ago </span>
+			            </div>
+			           </div>
+			        </div>
+			<!-- a video Ends -->
+			<!-- a video starts -->
+			    <div class="video">
+			       <div class="thumbnail">
+			          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/O_Udh58C2dM" title="&quot;Song of Innocence&quot;: Inazuma Chapter OST Album 2 - Through the Mists Theme MV | Genshin Impact" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			        </div>
+			            <div class="details">			            
+			            <div class="title">
+			                <h3>
+			                    Song of Innocence
+			                </h3>			               
+			                <span> 1.2M Views • 2 Days Ago </span>
+			            </div>
+			           </div>
+			        </div>
+			<!-- a video Ends -->
+			</div>
+		</div>
+	</main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h2>Youtube Videos</h2>
 	<div class="row">
 		<div class="column">
 			<h4>Column 1</h4>
@@ -25,6 +244,4 @@
 			<img src="childechibicat.jpg" alt="Childe Cat Form" width="400" height="300">
 		<p>Childe Cat</p>
 		</div>
-	</div>
-</body>
-</html>
+	</div> -->
